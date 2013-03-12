@@ -10,7 +10,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20130311104136) do
+=======
+ActiveRecord::Schema.define(:version => 20130311121918) do
+>>>>>>> sign-up
 
   create_table "users", :force => true do |t|
     t.string   "name"
@@ -20,6 +24,9 @@ ActiveRecord::Schema.define(:version => 20130311104136) do
     t.string   "password_digest"
   end
 
+<<<<<<< HEAD
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
 
+=======
+>>>>>>> sign-up
 end

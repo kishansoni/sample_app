@@ -1,8 +1,11 @@
 SampleApp::Application.routes.draw do
 
   resources :users
+<<<<<<< HEAD
 
   get "users/new"
+=======
+>>>>>>> sign-up
 
   root :to => 'static_pages#home'
 
