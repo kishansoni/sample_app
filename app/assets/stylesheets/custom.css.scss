@@ -1,9 +1,5 @@
 @import "bootstrap";
 
-<<<<<<< HEAD
-
-=======
->>>>>>> sign-up
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
@@ -21,11 +17,8 @@ $grayMediumLight: #eaeaea;
   float: left;
   width: 100%;
   margin-top: 45px;
-<<<<<<< HEAD
-  @include box-sizing
-=======
+  @include box-sizing;
   @include box_sizing;
->>>>>>> sign-up
 }
 
 /* universal */
