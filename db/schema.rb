@@ -10,11 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20130311104136) do
-=======
-ActiveRecord::Schema.define(:version => 20130311121918) do
->>>>>>> sign-up
+ActiveRecord::Schema.define(:version => 20130312101049) do
 
   create_table "users", :force => true do |t|
     t.string   "name"
@@ -22,11 +18,10 @@ ActiveRecord::Schema.define(:version => 20130311121918) do
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
     t.string   "password_digest"
+    t.string   "remember_token"
   end
 
-<<<<<<< HEAD
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
+  add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
 
-=======
->>>>>>> sign-up
 end
